@@ -7,7 +7,7 @@ import org.junit.Test;
 public class DaoTest {
     @Test
     public void testFindByUsername(){
-        String name = "李四";
+        String name = "赵柳";
         UserDao userDao = new UserDao();
         User user = userDao.findByUsername(name);
         System.out.println(user);
